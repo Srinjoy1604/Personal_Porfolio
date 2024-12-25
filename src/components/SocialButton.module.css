@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+.hover_Div {
+    width: 30px;
+    height: auto;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid orange;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    /* line-height: 50px; */
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 10%;
+  }
+  .ConnectBut
+  {
+    width: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Bruno Ace SC", serif;
+
+    
+  }
+  .hover_But {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    position: absolute;
+    left: -300%; /* Initially hidden to the left */
+    top: 50%;
+    transform: translateY(-50%);
+    transition: left 0.3s ease-in-out; /* Smooth transition */
+    z-index: 0;
+    background-color: whitesmoke; /* Make it stand out */
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .hover_Div:hover .hover_But {
+    left: 0; /* Slides in when hovering */
+  }
+  
+  .hoverItem {
+    padding: 10px;
+
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hoverItem:hover {
+    background-color: #b8b5b5d0;
+  }
+  

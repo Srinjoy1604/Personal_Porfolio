@@ -1,0 +1,29 @@
+[
+    {
+        "Name":"Trueinfo labs",
+        "Role":"Product Developer Intern",
+        "Start Date":" April 2024",
+        "End Date":"July 2024",
+        "Desc":"Developed advanced generative AI solutions with Tesseract, OpenCV, and OCR tools in Python, optimizing processing efficiency. Led full-stack development of MERN applications like Factrekker and Langpro, integrating REST APIs and addressing hosting challenges. Engineered and developed APIs for multiple projects and utilized web scraping tools such as Beautiful Soup and Selenium to streamline data extraction processes for the DATANET project.",
+        "Location":"Chennai",
+        "Image":"../Experience/Trueinfolabs.jpeg"
+    },
+    {
+        "Name":"Google Developers Students Club",
+        "Role":"Core Member | Web Developer",
+        "Start Date":"July 2023",
+        "End Date":"Present",
+        "Desc":"Acted as a core member of GDSC, spearheading the development of responsive MERN stack websites and driving impactful club projects. Mentored and guided juniors in mentorship groups, nurturing their technical skills and professional growth. Played a key role in organizing dynamic events and hackathons, fostering innovation and collaboration.",
+        "Location":"Jaipur",
+        "Image":"../Experience/GDSC.png"
+    },
+    {
+        "Name":"Phoenix Club",
+        "Role":"Member | Web Developer",
+        "Start Date":"May 2023",
+        "End Date":"Present",
+        "Desc":"Contributed to web and robotics projects within the club, showcasing expertise in full-stack web development and assisting in the creation of Phoenix’s official website. Leveraged Arduino skills to develop innovative automation solutions for robotics projects featured in events and fests.",
+        "Location":"Jaipur",
+        "Image":"../Experience/Phoenix.jpeg"
+    }
+]

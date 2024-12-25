@@ -1,0 +1,130 @@
+[
+    {
+        "GroupName": "Web Development",
+        "items": [
+            {
+                "Name":"HTML",
+                "Logo":"/html5-color.svg"
+            },
+            {
+                "Name":"CSS",
+                "Logo":"/css3-color.svg"
+            },
+            {
+                "Name":"JavaScript",
+                "Logo":"/javascript-color.svg"
+            },
+            {
+                "Name":"JQuery",
+                "Logo":"/jquery-color.svg"
+            },
+            {
+                "Name":"Bootstrap",
+                "Logo":"/bootstrap-color.svg"
+            },
+            {
+                "Name": "React.js",
+                "Logo": "/react-color.svg"
+            },
+            {
+                "Name": "Node.js",
+                "Logo": "/nodedotjs-color.svg"
+            },
+            {
+                "Name": "EJS",
+                "Logo": "/ejs-color.svg"
+            },
+            {
+                "Name": "Express.js",
+                "Logo": "/express-color.svg"
+            },
+            {
+                "Name": "Tailwind CSS",
+                "Logo": "/tailwindcss-color.svg"
+            }
+        ]
+    },
+    {
+        "GroupName": "Programming languages",
+        "items": [
+            {
+                "Name":"C++",
+                "Logo":"/cplusplus-color.svg"
+            },
+            {
+                "Name":"Python",
+                "Logo":"/python-color.svg"
+            },
+            {
+                "Name":"C",
+                "Logo":"/c-1.svg"
+            },
+            {
+                "Name":"Java",
+                "Logo":"/java-ar21.svg"
+            }
+        ]
+    },
+    {
+        "GroupName": "Databases",
+        "items": [
+            {
+                "Name":"MongoDB",
+                "Logo":"/mongodb-color.svg"
+            },
+            {
+                "Name":"MySQL",
+                "Logo":"/mysql-color.svg"
+            },
+            {
+                "Name":"Django",
+                "Logo":"/django-color.svg"
+            }
+        ]
+    },
+    {
+        "GroupName": "Other technologies",
+        "items": [
+            {
+                "Name":"OpenCV",
+                "Logo":"/opencv-color.svg"
+            },
+            {
+                "Name":"Selenium",
+                "Logo":"/selenium-color.svg"
+            },
+            {
+                "Name":"Beautiful Soup",
+                "Logo":"/beautifulsoup-logo.png"
+            },
+            {
+                "Name":"Linux",
+                "Logo":"/linux-color.svg"
+            },
+            {
+                "Name":"Git",
+                "Logo":"/git-color.svg"
+            },
+            {
+                "Name":"Firebase",
+                "Logo":"/firebase-color.svg"
+            },
+            {
+                "Name":"AWS",
+                "Logo":"/amazonwebservices-color.svg"
+            },
+            {
+                "Name":"AWS S3 Bucket",
+                "Logo":"/amazons3-color.svg"
+            },
+            {
+                "Name":"Figma",
+                "Logo":"/figma-color.svg"
+            },
+            {
+                "Name":"Arduino",
+                "Logo":"/arduino-color.svg"
+            }
+        ]
+    }
+]

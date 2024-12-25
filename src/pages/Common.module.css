@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+.HomeBackground {
+    background: url("../images/Home/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    text-align: center;
+    overflow-x: hidden;
+    background-attachment: fixed;
+
+
+}
+
+.NavStyle {
+    /* background: rgba(255, 255, 255, 0.26);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(19.7px);
+    -webkit-backdrop-filter: blur(19.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
+    background-color: rgb(36, 35, 35);
+}
+
+.ProjectBlock {
+    background-image: linear-gradient(to left, #d4e3db, #96d0cb, #45b9d0, #009ddd, #007add, #0063c9, #024db3, #0b369d, #003080, #022862, #0b2046, #0f172a);
+}
+
+.Iconlogo {
+    width: auto;
+    height: 60px;
+}
+
+.skillItem {
+    /* background: rgba(148, 189, 192, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(148, 189, 192, 0.3); */
+    background-color: rgb(201, 199, 199);
+    border-radius: 16px;
+    border: 1px solid rgba(148, 189, 192, 0.3);
+    padding: 1%;
+    margin: 0.5%;
+    cursor: pointer;
+}
+.logoImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  
+}
+.ExpBlock
+{
+    background: rgba(0, 0, 0, 0.55);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.ContactBlock{
+    background-image: linear-gradient(to right bottom, #1a008d, #163ab0, #2764cf, #488de9, #72b6ff);
+    padding: 2%;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 700px;
+}
+.ContactItems div
+{
+    border: 1px solid black;
+    width: 90%;
+    background-color: wheat;
+    /* display: grid;
+    place-items: center;
+    grid-auto-flow: column; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
+    margin: 1%;
+    padding: 2%;
+    color: black;
+}
+.ContactItems{
+    display: grid;
+    place-items: center;
+
+}
+.ContactItems span
+{
+    width: 200px;
+}
+
+/* .ContactItems svg
+{
+    border-right: 2px solid silver;
+    padding-right: 1%;
+} */
+
+.MailLink button
+{
+    border: 2px solid orange;
+    transition: all ease-in-out 0.4s;
+    
+}
+.MailLink:hover button
+{
+    scale: 0.9;
+}
+.MyMail
+{
+    opacity: 10%;
+    transition: all ease-in 0.3s;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: green;
+    padding: 1%; 
+    background-image: linear-gradient(to right top, #43922d, #50ac41, #5cc757, #67e36d, #72ff84);
+    border-radius: 0 12px 12px 0;
+}
+.MailmeDiv
+{
+    color: white;
+}
+/* .MailmeDiv:hover .MyMail
+{
+    display: block;
+} */
+.MailLink:hover .MyMail
+{
+    opacity: 100%;
+    color: rgb(7, 7, 69);
+
+}
+.codeforcesBut
+{
+    background-color: white;
+}
+.skillGroup
+{
+    background: rgba(48, 52, 61, 0.54);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    /* border: 1px solid rgba(48, 52, 61, 0.3); */
+}
+.Sidebar
+{
+    width: 100%;
+    border-bottom: 2px solid silver;
+    padding: 1%;
+}
+.Sidebar:hover{
+    background-color: #277ad3;
+}
+@media (max-width:505px){
+    .ContactItems span
+    {
+        width: 150px;   
+    }
+}
