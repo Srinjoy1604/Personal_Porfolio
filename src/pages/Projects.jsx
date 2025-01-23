@@ -30,8 +30,8 @@ function Projects() {
     const currentProject = projectList[currentIndex];
 
     return (
-        <div className={`${styles.HomeBackground}`}>
-            <div className="grid place-items-center m-[5%] ml-[3%] mr-[3%]">
+        <div className={`${styles.HomeBackground} overflow-hidden`}>
+            <div className="grid place-items-center  ml-[3%] mr-[3%]">
                 <h1 className="text-start w-[100%] p-[3%] font-BrunoAce mt-[120px] max-md:text-3xl">Some of my recent Projects</h1>
                 <div className={`${styles.ProjectBlock} bg-slate-900 m-[2%] border-4 rounded-xl w-[80%]`}>
                     <div className={`${styles.projectCard} grid grid-flow-col p-[2%] m-[2%] place-items-center grid-cols-[1fr,1.5fr] max-md:grid-flow-row max-md:grid-cols-[1fr]`}>

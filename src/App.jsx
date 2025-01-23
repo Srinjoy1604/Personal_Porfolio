@@ -16,7 +16,7 @@ function App() {
 
   return (
     <Router>
-      <div className='min-h-[100vh]'>
+      <div className='min-h-[100vh] overflow-hidden w-[100vw]'>
         <Navbar />
         <SocialBut />
         <Routes>

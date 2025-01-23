@@ -44,3 +44,19 @@
 .read-the-docs {
   color: #888;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c76904;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b86104;
+}
+
+::-webkit-scrollbar-track {
+  background-color:rgb(4, 5, 19);
+}
