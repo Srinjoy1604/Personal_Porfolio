@@ -4,9 +4,9 @@ import mailme from "../images/Contact/wired-flat-1141-email-hover-rotation.gif";
 import CallMe from "../images/Contact/system-solid-58-call-phone.gif"
 function Contact() {
     return (
-        <div className={`${styles.HomeBackground} grid place-items-center`}>
+        <div className={`${styles.HomeBackground} grid place-items-center ${styles.ContactBackground}`}>
             <div className="w-[90%] h-[100%] m-[5%] ml-[3%] mr-[3%]">
-                <div className="grid place-items-center mt-[120px]">
+                <div className="grid place-items-center mt-[120px] p-[2%]">
                     <div className={`${styles.ContactBlock} `}>
                         <h1 className="font-BrunoAce max-[486px]:text-[1.5rem]">Get in touch</h1>
                         <a href="tel:+919748695030" className="grid place-items-center max-[500]:w-[150px]">

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lekton:ital,wght@0,400;0,700;1,400&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
 .HomeBackground {
-    background: url("../images/RingRotate.gif");
+    background: url("../images/Home/vecteezy_abstract-modern-gradient-dark-blue-dynamic-stripes-background_.jpg");
     background-repeat: no-repeat;
     height: 100%;
     min-height: 100vh;
@@ -29,7 +29,6 @@
     -webkit-backdrop-filter: blur(6.9px);
     border: 1px solid rgba(7, 7, 7, 0.3);
     padding: 2%;
-
 }
 
 .NavStyle {
@@ -40,6 +39,7 @@
     -webkit-backdrop-filter: blur(19.7px);
     border: 1px solid rgba(255, 255, 255, 0.3); */
     background-color: rgb(36, 35, 35);
+    background-image: linear-gradient(to right top, #050334, #030733, #030a31, #030e2f, #04102d, #00132c, #001529, #011727, #031923, #091a1f, #101a1c, #171a1a);
 }
 
 .ProjectBlock {
@@ -162,8 +162,24 @@
 
 .codeforcesBut {
     background-color: white;
-}
+    transition: 0.5s ease-in-out all;
 
+}
+.codeforcesBut:hover
+{
+   border: 2px solid rgb(53, 53, 53);
+   color: rgb(35, 34, 33);
+   scale: 0.98;
+}
+.leetcodeBut{
+    transition: 0.5s ease-in-out all;
+}
+.leetcodeBut:hover
+{
+    border: 2px solid rgb(53, 53, 53);
+    color: rgb(241, 211, 182);
+    scale: 0.98;
+}
 .skillGroup {
     background: rgba(48, 52, 61, 0.54);
     border-radius: 16px;
@@ -182,7 +198,19 @@
 .Sidebar:hover {
     background-color: #277ad3;
 }
+.ContactBackground {
+    background: url("../images/CodeTypeBG.gif");
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    text-align: center;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-position: center;
 
+
+}
 @media (max-width:505px) {
     .ContactItems span {
         width: 150px;

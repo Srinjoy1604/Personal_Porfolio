@@ -5,7 +5,7 @@ function SocialBut() {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <div className="fixed top-[40%]">
+        <div className="fixed top-[40%] z-40">
             <div
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}

@@ -3,10 +3,12 @@ import styles from "./Common.module.css";
 import pj1 from "../images/Project/Project_Indfab.png";
 import pj2 from "../images/Project/Project_TAPL.png";
 import pj3 from "../images/Project/Project_DocVault.png";
+import pj4 from "../images/Project/Vivacity25Proj.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight, faLink } from "@fortawesome/free-solid-svg-icons";
 
 const projectList = [
+    { name: "Vivacity 2k25 Website", image: pj4, start: "December 2024", end: "January 2025", desc: "Developed the Vivacity 2025 website for The LNM Institute of Information Technology using the MERN stack, integrating GSAP for animations to enhance user experience. Led development and maintenance, driving 22,000+ views in two weeks and managing event registrations exclusively through the site.", skills: ["React.js","Node.js","Express.js","MongoDB","Framer Motion","GSAP"], github: "https://github.com/Srinjoy1604/Vivacity_main_website_2025", weblink: "https://www.vivacity25.live/" },
     { name: "DocVault", image: pj3, start: "August 2024", end: "October 2024", desc: "Developed Doc Vault, a document management portal for organizing digital files, with a React.js frontend and a Node.js/Express.js backend. Integrated JWT for secure authentication, Firebase for file storage, and MongoDB for metadata management, enabling efficient handling of over 100 documents.", skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase"], github: "https://github.com/Srinjoy1604/DocVault", weblink: "https://doc-vault-beta.vercel.app/" },
     { name: "Indfab", image: pj1, start: "May 2024", end: "July 2024", desc: "Developed and deployed a React.js website for Indfab on Cloudflare, featuring interactive Framer Motion animations and a custom design to showcase services and enhance user experience.", skills: ["React.js", "Framer Motion", "Cloudfare"], github: "https://github.com/Srinjoy1604/Indfab", weblink: "https://indfab.co/" },
     { name: "TAPL", image: pj2, start: "June 2024", end: "August 2024", desc: "Developed and launched a responsive frontend website for Tirupati Ancillaries Pvt Ltd. using HTML, CSS, JavaScript, and Bootstrap, hosted on Firebase, delivering a user-friendly interface tailored to client needs.", skills: ["HTML", "CSS", "JavaScript", "JQuery", "Firebase"], github: "https://github.com/Srinjoy1604/TAPL", weblink: "https://tirupatiancillaries.com/" },

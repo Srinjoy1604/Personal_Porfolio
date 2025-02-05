@@ -45,7 +45,7 @@ function Navbar() {
                                     </li>
                                 </Link>
                             ))}
-                            <li className="flex justify-center align-center"><button onClick={openLink} className="border-1 border-white hover:border-orange-400">Resume</button></li>
+                            <li className="flex justify-center align-center"><button onClick={openLink} className="border-1 border-white hover:border-orange-400 font-BrunoAce">Resume</button></li>
                         </ul>
 
                     </div>
@@ -78,7 +78,7 @@ function Navbar() {
                             </li>
                         </Link>
                     ))}
-                    <li className={`border-b-4 border-orange-400  flex justify-center align-center m-[2%] p-[1%]`}><button onClick={openLink} className="border-1 border-white hover:border-orange-400">Resume</button></li>
+                    <li className={`border-b-4 border-orange-400  flex justify-center align-center m-[2%] p-[1%]`}><button onClick={openLink} className={`border-1 border-white hover:border-orange-400 font-BrunoAce`}>Resume</button></li>
                 </ul>
             </div>
             <div>
