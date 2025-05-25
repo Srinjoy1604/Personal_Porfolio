@@ -81,7 +81,7 @@
 }
 .ProjShape
 {
-    clip-path: circle(78.9% at 98% 50%);
+    clip-path: circle(51.8% at 0 51%);
 }
 @media (max-width:767px) {
     .ProjShape
