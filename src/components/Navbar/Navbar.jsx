@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import styles from "../../pages/Common.module.css";
 import hambuger from "../../images/Navbar/hamburger-menu.png";
 import cross from "../../images/Navbar/cross.png";
+import NameLogo from "../../images/InitialsLogo.png";
 const items = [
     { name: "Home", link: "/" },
     { name: "Projects", link: "/projects" },
@@ -23,12 +24,12 @@ function Navbar() {
         setNavToggle(!NavbarToggle);
     };
     return (
-        <div>
-            <div className={`${styles.NavStyle} fixed top-0 z-20 max-sm:hidden`}>
+        <div className="h-[5%]">
+            <div className={`${styles.NavStyle} fixed top-0 z-20 max-sm:hidden `}>
                 <div className="grid place-items-center w-screen border-b-2 border-b-orange-500 p-[1%] grid-flow-col h-fit">
                     <div className="w-full grid place-items-start">
                         <Link to="/">
-                            <h1 className="bg-blue-950 p-1 text-green-300 cursor-pointer">SR</h1>
+                            <h1 className="bg-blue-950 p-1 text-green-300 cursor-pointer"><img src={NameLogo} className="w-[50px] h-auto"></img></h1>
                         </Link>
                     </div>
                     <div className="w-full">
@@ -57,7 +58,7 @@ function Navbar() {
                 <div className="grid grid-flow-col">
                     <div className="w-full grid place-items-start">
                         <Link to="/">
-                            <h1 className="bg-blue-950 p-1 text-green-300 cursor-pointer">SR</h1>
+                            <h1 className="bg-blue-950 p-1 text-green-300 cursor-pointer"><img src={NameLogo} className="w-[50px] h-auto"></img></h1>
                         </Link>
                     </div>
                     <div onClick={ToggleNavbar} className="grid place-items-end p-[2%] sm:hidden">{NavbarToggle ? <img src={hambuger} className="w-[50px] h-auto"></img> : <img src={cross} className="w-[50px] h-auto"></img>}</div>

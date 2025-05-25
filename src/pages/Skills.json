@@ -11,6 +11,10 @@
                 "Logo":"/css3-color.svg"
             },
             {
+                "Name": "Typescript",
+                "Logo":"/typescript-color.svg"
+            },
+            {
                 "Name":"JavaScript",
                 "Logo":"/javascript-color.svg"
             },
@@ -88,6 +92,10 @@
             {
                 "Name":"OpenCV",
                 "Logo":"/opencv-color.svg"
+            },
+            {
+                "Name":"Flask",
+                "Logo":"/flask-color.svg"
             },
             {
                 "Name":"Selenium",

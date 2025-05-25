@@ -12,6 +12,7 @@ export default {
         "Tektur":["Tektur", 'serif'],
         "Poppins":["Poppins", 'serif'],
         "Lekton":["Lekton", 'serif'],
+        "DancingScript":["Dancing Script", 'cursive']
       }
     },
   },

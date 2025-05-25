@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lekton:ital,wght@0,400;0,700;1,400&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
 .HomeBackground {
-    background: url("../images/Home/vecteezy_abstract-modern-gradient-dark-blue-dynamic-stripes-background_.jpg");
+    background: url("../images/Home/5570834.jpg");
     background-repeat: no-repeat;
     height: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-size: cover;
     text-align: center;
     overflow-x: hidden;
@@ -12,6 +13,24 @@
     background-position: center;
 
 
+}
+
+/* .ProjectText { */
+    /* background: linear-gradient(165deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+   /*  */
+    /* background-size: 100% 100%; */
+    /* background-position: center; */
+/* } */
+
+.ProjTitleBg
+{
+    background-image: url("../images/Project/BgTitlePattern.png");
+    background-size: contain;
+    width: 100%;
 }
 
 .TextBg {
@@ -42,10 +61,35 @@
     background-image: linear-gradient(to right top, #050334, #030733, #030a31, #030e2f, #04102d, #00132c, #001529, #011727, #031923, #091a1f, #101a1c, #171a1a);
 }
 
-.ProjectBlock {
-    background-image: linear-gradient(to left, #d4e3db, #96d0cb, #45b9d0, #009ddd, #007add, #0063c9, #024db3, #0b369d, #003080, #022862, #0b2046, #0f172a);
+.projectCard {
+    /* background-image: linear-gradient(to left, #d4e3db, #96d0cb, #45b9d0, #009ddd, #007add, #0063c9, #024db3, #0b369d, #003080, #022862, #0b2046, #0f172a); */
+    background-color: #131414;
 }
+.HeadingTitleProject
+{
+    background-image: url("../images/Project/HeadingPattern2.png");
+    background-size: contain;
 
+    width: 100%;
+}
+.WorkText
+{
+   
+  background: -webkit-linear-gradient(#d6a315, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ProjShape
+{
+    clip-path: circle(78.9% at 98% 50%);
+}
+@media (max-width:767px) {
+    .ProjShape
+    {
+        clip-path: polygon(50% 100%, 100% 69%, 100% 100%, 0 100%, 0 70%);
+        width: 100%;
+    }
+}
 .Iconlogo {
     width: auto;
     height: 60px;
@@ -59,13 +103,20 @@
     -webkit-backdrop-filter: blur(8.7px);
     border: 1px solid rgba(148, 189, 192, 0.3); */
     background-color: rgb(201, 199, 199);
+    background-color: rgb(167, 163, 163);
     border-radius: 16px;
     border: 1px solid rgba(148, 189, 192, 0.3);
     padding: 1%;
     margin: 0.5%;
     cursor: pointer;
+    transition: 0.5s ease-in-out box-shadow;
 }
-
+.skillItem:hover
+{
+    box-shadow: 2px 4px 35px 11px rgba(6,255,255,0.75);
+-webkit-box-shadow: 2px 4px 35px 11px rgba(6,255,255,0.75);
+-moz-box-shadow: 2px 4px 35px 11px rgba(6,255,255,0.75);
+}
 .logoImage {
     display: flex;
     align-items: center;
@@ -165,21 +216,23 @@
     transition: 0.5s ease-in-out all;
 
 }
-.codeforcesBut:hover
-{
-   border: 2px solid rgb(53, 53, 53);
-   color: rgb(35, 34, 33);
-   scale: 0.98;
+
+.codeforcesBut:hover {
+    border: 2px solid rgb(53, 53, 53);
+    color: rgb(35, 34, 33);
+    scale: 0.98;
 }
-.leetcodeBut{
+
+.leetcodeBut {
     transition: 0.5s ease-in-out all;
 }
-.leetcodeBut:hover
-{
+
+.leetcodeBut:hover {
     border: 2px solid rgb(53, 53, 53);
     color: rgb(241, 211, 182);
     scale: 0.98;
 }
+
 .skillGroup {
     background: rgba(48, 52, 61, 0.54);
     border-radius: 16px;
@@ -198,6 +251,7 @@
 .Sidebar:hover {
     background-color: #277ad3;
 }
+
 .ContactBackground {
     background: url("../images/CodeTypeBG.gif");
     background-repeat: no-repeat;
@@ -209,8 +263,28 @@
     background-attachment: fixed;
     background-position: center;
 
-
 }
+.smoothText {
+  font-size: 2rem;
+  font-weight: 600;
+  /* font-family: 'Bruno Ace', sserif; */
+  color: #ff6a00;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(10px) scale(0.98);
+  margin: 1%;
+}
+
+.fadeIn {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.fadeOut {
+  opacity: 0;
+  transform: translateY(-10px) scale(0.98);
+}
+
 @media (max-width:505px) {
     .ContactItems span {
         width: 150px;
