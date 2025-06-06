@@ -65,6 +65,18 @@ function Contact() {
                             </div>
 
                             <ContactForm />
+                            <div className="m-6 text-center text-gray-300">
+                                <div className="my-4 font-semibold text-lg text-orange-500">OR</div>
+                                <div className="space-y-2 text-sm md:text-base">
+                                    <p>Feel free to reach out directly:</p>
+                                    <p>
+                                        📞 <a href="tel:+919748695030" className="text-orange-400 hover:underline">+91 97486 95030</a>
+                                    </p>
+                                    <p>
+                                        📧 <a href="mailto:srinjoy12345@gmail.com" className="text-orange-400 hover:underline">srinjoy12345@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
