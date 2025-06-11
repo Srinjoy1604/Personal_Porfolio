@@ -15,17 +15,33 @@ function Skills() {
     }
   };
 
-  useEffect(() => {
+useEffect(() => {
+  // Reset previous animations
+  iconRefs.current.forEach((icon) => {
+    gsap.killTweensOf(icon); // Stop any previous animation
+    gsap.set(icon, { clearProps: "all" }); // Reset any gsap-applied styles
+  });
+
+  // Animate after icons are rendered
+  const timeout = setTimeout(() => {
     iconRefs.current.forEach((icon) => {
-      gsap.to(icon, {
-        y: "+=6",
-        repeat: -1,
-        yoyo: true,
-        duration: 2,
-        ease: "power1.inOut",
-      });
+      gsap.fromTo(
+        icon,
+        { y: 0 },
+        {
+          y: 6,
+          repeat: -1,
+          yoyo: true,
+          duration: 2,
+          ease: "power1.inOut",
+        }
+      );
     });
-  }, []);
+  }, 0); // Run after DOM update
+
+  return () => clearTimeout(timeout); // Cleanup
+}, [activeTab]);
+
 
   return (
     <div className={`${styles.SkillBackground} grid place-items-center`}>
