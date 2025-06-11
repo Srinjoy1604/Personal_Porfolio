@@ -31,6 +31,10 @@
                 "Logo": "/react-color.svg"
             },
             {
+                "Name": "Next.js",
+                "Logo": "/nextdotjs-color.svg"
+            },
+            {
                 "Name": "Node.js",
                 "Logo": "/nodedotjs-color.svg"
             },
@@ -45,6 +49,10 @@
             {
                 "Name": "Tailwind CSS",
                 "Logo": "/tailwindcss-color.svg"
+            },
+            {
+                "Name":"GSAP",
+                "Logo":"/gsap.svg"
             }
         ]
     },
@@ -119,7 +127,7 @@
             },
             {
                 "Name":"AWS",
-                "Logo":"/amazonwebservices-color.svg"
+                "Logo":"/icons8-aws-logo.svg"
             },
             {
                 "Name":"AWS S3 Bucket",

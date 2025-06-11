@@ -14,20 +14,31 @@
 
 
 }
+.SkillBackground {
+    background: url("../images/Skills/GradientSkills.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-position: center;
 
+
+}
 /* .ProjectText { */
-    /* background: linear-gradient(165deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
-    /* background-size: 100%; */
-    /* background-repeat: no-repeat; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-   /*  */
-    /* background-size: 100% 100%; */
-    /* background-position: center; */
+/* background: linear-gradient(165deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
+/* background-size: 100%; */
+/* background-repeat: no-repeat; */
+/* -webkit-background-clip: text; */
+/* -webkit-text-fill-color: transparent; */
+/*  */
+/* background-size: 100% 100%; */
+/* background-position: center; */
 /* } */
 
-.ProjTitleBg
-{
+.ProjTitleBg {
     background-image: url("../images/Project/BgTitlePattern.png");
     background-size: contain;
     width: 100%;
@@ -65,31 +76,32 @@
     /* background-image: linear-gradient(to left, #d4e3db, #96d0cb, #45b9d0, #009ddd, #007add, #0063c9, #024db3, #0b369d, #003080, #022862, #0b2046, #0f172a); */
     background-color: #131414;
 }
-.HeadingTitleProject
-{
+
+.HeadingTitleProject {
     background-image: url("../images/Project/HeadingPattern2.png");
     background-size: contain;
 
     width: 100%;
 }
-.WorkText
-{
-   
-  background: -webkit-linear-gradient(#d6a315, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+.WorkText {
+
+    background: -webkit-linear-gradient(#d6a315, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.ProjShape
-{
+
+.ProjShape {
     clip-path: circle(51.8% at 0 51%);
 }
+
 @media (max-width:767px) {
-    .ProjShape
-    {
+    .ProjShape {
         clip-path: polygon(50% 100%, 100% 69%, 100% 100%, 0 100%, 0 70%);
         width: 100%;
     }
 }
+
 .Iconlogo {
     width: auto;
     height: 60px;
@@ -104,19 +116,33 @@
     border: 1px solid rgba(148, 189, 192, 0.3); */
     background-color: rgb(201, 199, 199);
     background-color: rgb(167, 163, 163);
+    /* background-color: rgb(232, 188, 117); */
+    background-image: linear-gradient(to right top, #a09ea4, #7d7f84, #5d6264, #414545, #282a29);
+
+    color: white;
     border-radius: 16px;
     border: 1px solid rgba(148, 189, 192, 0.3);
     padding: 1%;
     margin: 0.5%;
     cursor: pointer;
-    transition: 0.5s ease-in-out box-shadow;
+     transition: box-shadow 0.5s ease-in-out, background-image 0.5s ease-in-out;
+
+     background: rgba(227, 223, 223, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(5px);
+
 }
-.skillItem:hover
-{
-    box-shadow: 2px 4px 35px 11px rgba(6,255,255,0.75);
--webkit-box-shadow: 2px 4px 35px 11px rgba(6,255,255,0.75);
--moz-box-shadow: 2px 4px 35px 11px rgba(6,255,255,0.75);
+
+.skillItem:hover {
+    box-shadow: 2px 4px 35px 11px rgba(6, 255, 255, 0.75);
+    -webkit-box-shadow: 2px 4px 35px 11px rgba(6, 255, 255, 0.75);
+    -moz-box-shadow: 2px 4px 35px 11px rgba(6, 255, 255, 0.75);
+    background-image: linear-gradient(to left bottom, #a09ea4, #7d7f84, #5d6264, #414545, #282a29);
+    background-image: linear-gradient(to right top, #9983c4, #a498ce, #b2add6, #c2c1dd, #d4d5e3);
 }
+
 .logoImage {
     display: flex;
     align-items: center;
@@ -143,31 +169,31 @@
 }
 
 /* .ContactItems div { */
-    /* border: 1px solid black; */
-    /* width: 90%; */
-    /* background-color: wheat; */
-    /* /~ display: grid; */
-    /* place-items: center; */
-    /* grid-auto-flow: column; ~/ */
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
-    /* align-content: center; */
-    /* grid-template-columns: 1fr 1fr; */
-    /* border-radius: 12px; */
-    /* margin: 1%; */
-    /* padding: 2%; */
-    /* color: black; */
+/* border: 1px solid black; */
+/* width: 90%; */
+/* background-color: wheat; */
+/* /~ display: grid; */
+/* place-items: center; */
+/* grid-auto-flow: column; ~/ */
+/* display: flex; */
+/* justify-content: space-evenly; */
+/* align-items: center; */
+/* align-content: center; */
+/* grid-template-columns: 1fr 1fr; */
+/* border-radius: 12px; */
+/* margin: 1%; */
+/* padding: 2%; */
+/* color: black; */
 /* } */
 
 .ContactItems {
     display: grid;
     place-items: center;
-    
+
 }
 
 /* .ContactItems span { */
-    /* width: 200px; */
+/* width: 200px; */
 /* } */
 
 /* .ContactItems svg
@@ -234,11 +260,18 @@
 }
 
 .skillGroup {
-    background: rgba(48, 52, 61, 0.54);
+    /* background: rgba(48, 52, 61, 0.54); */
+    /* border-radius: 16px; */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    /* backdrop-filter: blur(7.3px); */
+    /* -webkit-backdrop-filter: blur(7.3px); */
+
+    background: rgba(0, 0, 0, 0.44);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(7.3px);
-    -webkit-backdrop-filter: blur(7.3px);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
     /* border: 1px solid rgba(48, 52, 61, 0.3); */
 }
 
@@ -264,32 +297,33 @@
     background-position: center;
 
 }
+
 .smoothText {
-  font-size: 2rem;
-  font-weight: 600;
-  /* font-family: 'Bruno Ace', sserif; */
-  color: #ff6a00;
-  transition: all 0.3s ease-in-out;
-  opacity: 0;
-  transform: translateY(10px) scale(0.98);
-  margin: 1%;
+    font-size: 2rem;
+    font-weight: 600;
+    /* font-family: 'Bruno Ace', sserif; */
+    color: #ff6a00;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+    margin: 1%;
 }
 
 .fadeIn {
-  opacity: 1;
-  transform: translateY(0) scale(1);
+    opacity: 1;
+    transform: translateY(0) scale(1);
 }
 
 .fadeOut {
-  opacity: 0;
-  transform: translateY(-10px) scale(0.98);
+    opacity: 0;
+    transform: translateY(-10px) scale(0.98);
 }
 
 /* Contact send btn */
 
 
 /* @media (max-width:505px) { */
-    /* .ContactItems span { */
-        /* width: 150px; */
-    /* } */
+/* .ContactItems span { */
+/* width: 150px; */
+/* } */
 /* } */

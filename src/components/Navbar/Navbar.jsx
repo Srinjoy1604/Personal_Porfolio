@@ -26,7 +26,7 @@ function Navbar() {
     return (
         <div className="h-[5%]">
             <div className={`${styles.NavStyle} fixed top-0 z-20 max-sm:hidden `}>
-                <div className="grid place-items-center w-screen border-b-2 border-b-orange-500 p-[1%] grid-flow-col h-fit">
+                <div className="grid place-items-center w-screen border-b-4 border-b-green-500 p-[1%] grid-flow-col h-fit">
                     <div className="w-full grid place-items-start">
                         <Link to="/">
                             <h1 className="bg-blue-950 p-1 text-green-300 cursor-pointer"><img src={NameLogo} className="w-[50px] h-auto"></img></h1>
