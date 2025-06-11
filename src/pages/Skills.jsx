@@ -3,7 +3,6 @@ import styles from "./Common.module.css";
 import SkillList from "./Skills.json";
 import cf from "../images/Skills/codeforces.png";
 import lt from "../images/Skills/LeetCode_Logo_1.png";
-import SkillHeading from "../images/Skills/Skills_heading2.png";
 import { gsap } from "gsap";
 
 function Skills() {
