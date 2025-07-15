@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
@@ -10,10 +10,35 @@ import Experience from './pages/Experience';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import SocialBut from './components/SocialButton';
-
+import VideoPre from "./images/Render_1920x1080.mp4";
 function App() {
   const [count, setCount] = useState(0);
+  const [loading, setLoading] = useState(() => {
+    return sessionStorage.getItem("videoPlayed") !== "true";
+  });
+  const handleVideoEnd = () => {
+    sessionStorage.setItem("videoPlayed", "true");
+    setLoading(false);
+  };
 
+  useEffect(() => {
+    if (!loading) {
+      sessionStorage.setItem("videoPlayed", "true");
+    }
+  }, [loading]);
+  if (loading) {
+    return (
+      <div className="w-[100vw] h-full flex items-center justify-center object-cover">
+        <video
+          src={VideoPre}
+          autoPlay
+          muted
+          onEnded={handleVideoEnd}
+          className="w-[100vw] h-full object-cover"
+        />
+      </div>
+    );
+  }
   return (
     <Router>
       <div className='min-h-[100vh] overflow-hidden w-[100vw]'>

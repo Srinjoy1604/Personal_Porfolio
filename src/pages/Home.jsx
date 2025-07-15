@@ -34,7 +34,7 @@ function Homepage() {
       className={`${styles.HomeBackground} grid place-items-center min-h-[100vh]`}
     >
       <div className="grid place-items-center w-[80%] h-[60%] text-center">
-        <h1 className="m-[1%] text-8xl font-DancingScript">Srinjoy Roy</h1>
+        <h1 className="m-[1%] text-8xl font-DancingScript text-white">Srinjoy Roy</h1>
         <h2
           className={`${styles.smoothText} font-BrunoAce ${
             fade ? styles.fadeIn : styles.fadeOut
@@ -52,7 +52,7 @@ function Homepage() {
         </p>
         <button
           onClick={openLink}
-          className="border border-white hover:border-orange-400 font-BrunoAce m-[1%] px-4 py-2 mt-4"
+          className="border border-white hover:border-orange-400 font-BrunoAce m-[1%] px-4 py-2 mt-4 hover:bg-orange-300 hover:text-slate-900"
         >
           Resume
         </button>

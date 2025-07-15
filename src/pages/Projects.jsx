@@ -125,7 +125,7 @@ function Projects() {
     const currentProject = projectList[currentIndex];
 
     return (
-        <div className={`${styles.HomeBackground} overflow-auto`} ref={containerRef}>
+        <div className={`${styles.ProjectBackground} overflow-auto`} ref={containerRef}>
             <div className="grid place-items-center">
                 <div
                     className={`${styles.HeadingTitleProject} text-center w-full p-[3%] mt-[70px] mb-0`}
